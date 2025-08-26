@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Science Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <span>Science Chatbot</span>
+    <button id="toggle-mode" aria-label="Toggle light/dark mode">🌙</button>
+  </header>
+  <main id="chat-container"></main>
+  <form id="chat-form" autocomplete="off">
+    <input id="chat-input" type="text" placeholder="Ask a science question..." required autocomplete="off"/>
+    <button type="submit">➤</button>
+  </form>
+  <script src="app.js"></script>
+</body>
+</html>
