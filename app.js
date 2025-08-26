@@ -1,5 +1,4 @@
 // Minimal chat frontend for Science Chatbot
-
 const chatContainer = document.getElementById('chat-container');
 const chatForm = document.getElementById('chat-form');
 const chatInput = document.getElementById('chat-input');
